@@ -1,0 +1,30 @@
+## Variables:
+    - Es la habilidad de guardar una informacion, para utilizarla despues. (Es como una caja donde guardamos cosas).
+Siempre se empieza escribiendo var 
+
+## Strings:
+    - Es una cadena de caracteres que se usa para representar textos (que tambien puede llevar numeros). Siempre empieza y termina entre comillas. 
+`Ejemplo`: "Hola" "20" 'Buenos dias"
+
+## Funciones (argumentos, return)
+    - Argumentos: Son como variables que declaramos dentro de la funcion, que toman un valor, cuando invocamos la funcion
+`Ejemplo`: function Saludar (Nombre) - la palabra Nombre seria el argumento.
+
+    - Return: Es la unica forma que los datos se escapan de una funcion. Sale de la funcion actual y devuelve el valor de la misma.
+`Ejemplo`: function Devolver () {
+    return 39;
+}
+Cuando pongamos el nombre de la funcion (Devolver). Nos traera el valor 39
+
+## Valores booleanos (true, false)
+    - Estos valores, solo admiten 2 opciones de respuesta true (verdadero) o false (falso).
+
+## Declaraciones (if)
+    - Permite agregar logica a un codigo, permitiendo hacer preguntas. El condicional if se usa para tomar decisiones. 
+`Ejemplo`: function soymayordeedad (edad) {
+    if (edad > 21)
+return true;
+}
+return false;
+
+ En este caso, hace referencia a que si la Edad es mayor a 21, dara como respuesta True, en caso de lo contrario, dara como respuesta False.
